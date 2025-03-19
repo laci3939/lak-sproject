@@ -58,6 +58,7 @@ h1 {
    color: blue;
    font-style: italic;
    font-family: 'Times New Roman', Times, serif;
+   text-align: center;
    
 }
 
@@ -85,3 +86,21 @@ h1 {
     background-color: blueviolet;
 }
 
+input,textarea {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px; 
+    width: 200px;
+}
+
+.input-fields{
+    display: flex;
+}
+
+
+.left-side .name,
+.left-side .email {
+    display: flex;
+    flex-direction: column
+    ;
+}
